@@ -1,0 +1,21 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,table,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{ font-weight: normal;}
+ul,li { list-style: none; }
+img { border: none; }
+.html-auto{height:auto;overflow: auto}
+.html-hidden{height: 100%;overflow: hidden;}
+.pointer-none{pointer-events:none;}
+.pointer-auto{pointer-events: auto;}
+.bodybox{
+    background:url('/static/Activity/TC0A-023/images/bg_background.png') top center no-repeat;
+    height:17rem;
+    background-size:100%;
+    position:relative;
+    color: white;
+}
+p{
+    margin: 5rem 1.2rem;
+    font-size: .62rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.03rem;
+}

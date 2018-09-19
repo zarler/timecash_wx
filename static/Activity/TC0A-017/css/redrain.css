@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2017-11-15
+ * @version redrain
+ */
+
+body{background-color: #bea5d8; color:#000;}
+#scroll_div {height:100%;overflow: hidden;white-space: nowrap;width:10.453rem;margin:0 auto; font-size: 0.512rem;}
+.redrain-notice{width: 100%; z-index: 10; height:1.451rem; line-height: 1.451rem; background-color: #f9da71; position:relative;}
+.redrain-notice:after{content:''; position:absolute; left: 0.299rem; top: 0.341rem; width: 2.624rem; height:1.941rem; background:url('../images/speaker.png') 0 0 no-repeat; background-size: 100%;}
+.redrain-notice li{width: 100%; display: inline-block; text-align: center;}
+
+.redrain-main{width: 100%; overflow: hidden; height:20.565rem;background:url('../images/main.png') 0 0 no-repeat; background-size: 100%; position:relative;}
+.redrain-rule-btn{position:absolute; left: -1px; top:3.115rem ; width: 4.864rem; height:1.451rem; line-height:1.451rem; text-align: center;border-top-right-radius: 0.64rem; border-bottom-right-radius: 0.64rem; background-color: #fee300; border:1px solid #070002; color:#271602;font-size: 0.768rem;}
+.redrain-btn{display: block; width: 7.211rem; height:2.219rem; text-align: center; line-height: 2.091rem; color:#cf2522; font-size: 1.152rem; margin:14.208rem auto 0;background:url('../images/main-btn.png') 0 0 no-repeat; background-size: 100%;}
+
+.redrain-info{width: 100%;margin-bottom: 1.493rem; height:13.611rem; padding: 2.859rem 1.024rem 0; box-sizing: border-box; background:url('../images/info-bg.png') 0 0 no-repeat; background-size: 100%; }
+.redrain-tab{width: 100%; margin-bottom: 0.32rem; overflow: hidden; height:1.323rem; line-height: 1.323rem; border-bottom: 1px solid #000; }
+.redrain-tab li{width: 50%; float: left; text-align: center; color:#fff; font-size: 0.555rem;}
+.redrain-tab li.active{color:#ffe514;}
+
+.redrain-tab-main{display: none;}
+.redrain-tab-main:first-child{display: block;}
+.redrain-tab-list li{width: 100%; font-size: 0.384rem; color:#030303; line-height: 0.768rem;}
+.redrain-tab-list li:first-child{font-size: 0.427rem;color:#010101; margin-bottom:0.213rem;}
+.redrain-tab-list li span{display: inline-block; width:50%; text-align: center;}
+.redrain-list-btn{ padding-top:1rem; text-align: center; }
+.redrain-list-btn a,.redrain-list-btn a:visited,.redrain-list-btn a:hover,.redrain-list-btn a:active{color:#000; font-size: 0.299rem;}
+.redrain-use-rule{color:#000; padding:0 0.683rem ; font-size: 0.427rem;line-height: 0.56rem;}
+
+.redrain-list-box{width: 100%; overflow: hidden; height:28.459rem; background: url('../images/list-bg.png') top center no-repeat; background-size: 100%;}
+.redrain-list-title{margin: 3rem 1.109rem 0.213rem; height:1.309rem; line-height: 1.309rem; text-align: center; color:#ffe514; font-size: 0.555rem; border-bottom: 1px solid #000;}
+
+.redrain-pop-mask{position:fixed; z-index: 20; top: 0; bottom:0; left: 0; right: 0; background-color: rgba(0,0,0,.7)}
+.redrain-pop-close{width: 1.493rem; height:1.493rem; position:absolute; top: -2.56rem; right:0; background: url('../images/pop-close.png') bottom center no-repeat; background-size: 100%;}
+
+.redrain-pop-rule{width: 12.011rem; height:16.619rem; position:fixed; z-index: 30; top:50%; left: 50%; transform:translate(-50%,-50%);background: url('../images/pop-rule-bg.png') bottom center no-repeat; background-size: 100%;}
+.redrain-pop-rule-txt{width: 10.667rem; margin:2.383rem auto 0;line-height:.2rem}
+.redrain-pop-rule-txt h3{font-size: 0.683rem; color:#ffe514; text-align: center; margin-bottom: 0.45rem;}
+.redrain-pop-rule-txt p{font-size: 0.469rem; line-height: 0.853rem; }
+.pop-wrap{display: none;}

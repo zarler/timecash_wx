@@ -1,0 +1,279 @@
+body{
+    background: #362c51;
+    padding: 0;
+    margin: 0;
+    font-size: .5rem;
+    color: #e6e6e9;
+    font-weight: lighter;
+}
+a {
+    text-decoration: none;
+    color: #e6e6e9;
+
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+.peopel_button a{
+    color: #221c39;
+}
+ul{
+    color: rgba(255, 255, 255, 0.98);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+li {
+    margin-top: .3rem;
+    margin-bottom: .1rem;
+    list-style: none;
+    float: left;
+    width: 33%;
+    display: block;
+    font-size: .3rem;
+    text-align: center;
+
+}
+input {
+    border: none;
+    outline: none;
+    height: .6rem;
+    background: #20163e;
+    font-size: .3rem;
+}
+*::-webkit-input-placeholder {
+    color: #7362B9;
+}
+*:-moz-placeholder {
+    color: #7362B9;
+}
+*:-ms-input-placeholder {
+    /* IE10+ */
+    color: #7362B9;
+}
+.ulcss{
+    color: #FFE402;
+    margin-top: 0;
+}
+.ulcss li{
+    font-size: .35rem;
+    margin-top: .1rem !important;
+    margin-bottom: 0 !important;
+}
+.morePeople{
+    color: rgba(255, 255, 255, 0.98);
+    margin: .3rem auto;
+}
+.circular{
+    background: url(/static/images/v2/peoplepull/001.png) no-repeat;
+    height: 6.1rem;
+    background-size: cover;
+    padding-top: 1.3rem;
+}
+.circular img{
+    display: block;
+    margin: 0 auto;
+}
+.peoplepull_two p{
+    margin-top: .1rem !important;
+    position: relative;
+    top: -.5rem;
+    text-align: center !important;
+    font-size: .5rem;
+
+}
+.peoplepull_two p strong{
+    font-size: .6rem;
+
+}
+.peoplepull_two span{
+    display: block;
+    width: 37%;
+    height: 2rem;
+    border-radius: .3rem;
+    /*margin-top: 3.3rem;*/
+    background: #20163e;
+    border: .01rem solid #3e365d;
+}
+.peoplepull_two span label{
+    font-size: .3rem;
+    margin-left: .7rem;
+}
+.peoplepull_two img{
+    display: inline;
+    float: right;
+    width: 1.5rem;
+    margin-right: .2rem;
+    position: relative;
+    top: -0.6rem;
+}
+.peopel_button{
+    background: url(/static/images/v2/peoplepull/004.png) no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 1.5rem;
+    margin: .5rem auto 0 auto;
+    color: #221c39;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: .5rem;
+    letter-spacing: .16rem;
+}
+.peopel_three{
+    background: #20163e;
+    width: 87%;
+    margin: 0 auto;
+    border-radius: .2rem;
+    border: 1px solid #3e365d;
+}
+/*.peopel_three span{
+    display: block;
+    height: 2rem;
+    background: #20163e;
+    border-radius: .2rem;
+    background: red;
+}*/
+.peopel_three .leftspan{
+    float: left;
+}
+.peopel_three .rightspan{
+    float: right;
+}
+.peopel_three .topdiv{
+    border-bottom: 1px solid #3e365d;
+    height: 1.4rem;
+    border-top-right-radius:.2rem;
+    border-top-left-radius:.2rem;
+}
+.peopel_three .topdiv span{
+    width: 49%;
+    display: block;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    font-size: .4rem;
+    letter-spacing: .06rem;
+    font-weight: lighter;
+
+}
+.peopel_three .topdiv .leftspan{
+    border-right: 1px solid #3e365d;
+}
+.peopel_three .topdiv .rightspan{
+    text-align: right;
+}
+.peopel_three div{
+    font-size: .27rem;
+    color: white;
+    line-height: .45rem;
+    height: 8.2rem;
+}
+.peopel_three .left-span{
+    text-align: center;
+    line-height: 3rem;
+}
+.peopel_three .right-div{
+    display: none;
+    margin: 0 .6rem;
+    font-size: .27rem;
+    height: 8.2rem;
+    font-weight: normal;
+}
+.peopel_three .p_notice{
+    line-height: .6rem;
+}
+
+
+.peopel_three .left-div .nodate{
+    font-size: .25rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 4.2rem;
+    height: 6.5rem;
+}
+.peopel_three .left-div .morePeople{
+    font-size: .25rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1.3rem;
+    height: 1.5rem;
+}
+/*footer {
+ position: relative;
+     top: -1.3rem;
+}*/
+/*footer img {
+    position: relative;
+    bottom: -3.98rem;
+}*/
+.fontcolor{
+    color: #e3b013 !important;
+}
+.peopel_three span{
+    font-size: .12rem;
+}
+.peoplepull_r_two input{
+    color: wheat;
+}
+.peoplepull_r_two p{
+    width: 82%;
+    display: block;
+    margin: 0 auto;
+    background: #20163e;
+    border-radius: .15rem;
+    border: .03rem solid #3C345B;
+    margin-bottom: .2rem;
+    height: 1rem;
+    line-height:.9rem;
+    padding-left: .5rem;
+}
+.peoplepull_r_two .veributton{
+    width: 82%;
+    display: block;
+    margin: 0 auto;
+    background: #2F2746;
+    border-radius: .15rem;
+    border: .03rem solid #3C345B;
+    margin-bottom: .2rem;
+    height: 1rem;
+    line-height:.9rem;
+    padding-left: .1rem;
+    color: #7362B9;
+    font-size: .3rem;
+}
+.text_width_100 {
+    width: 100%;
+}
+.text_width_87 {
+    width: 87%;
+}
+.text_width_40 {
+    width: 40%;
+}
+.text_width_20 {
+    width: 20%;
+}
+.float_left{
+    float: left;
+}
+.text_width_56 {
+    width: 56%;
+}
+.promptselect{
+    width: 45%;height: 1rem;border-radius: .2rem;border: 3px dashed white;margin: .8rem auto;font-size: .4rem;text-align: center;line-height: 1rem;
+}
+.peopel_button_r{
+    background: url(/static/images/v2/peoplepull/013.png) no-repeat;
+    background-size: cover;
+    width: 87%;
+    height: .95rem;
+    margin: .5rem auto 0 auto;
+    color: #221c39;
+    font-weight: bold;
+    text-align: center;
+    line-height: .9rem;
+    font-size: .4rem;
+    letter-spacing: .16rem;
+}

@@ -1,0 +1,203 @@
+/*.t-login-nav-1{*/
+    /*font-size: 1rem !important;*/
+/*}*/
+/*.t-login-nav{*/
+    /*height: 3rem !important;*/
+    /*line-height: 3.2rem !important;*/
+/*}*/
+
+
+.t-login-nav-1 {
+    text-align: center;
+    color: #363636;
+    font-size: .4rem;
+}
+.t-login-nav {
+    background: white;
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 1.2rem;
+    border-bottom: 1px solid #f7f2f2;
+    position: fixed;
+    z-index: 99;
+}
+.t-login-nav-1 a {
+    color: #363636;
+}
+.t-login-nav-1 span {
+    margin-right: 0.2rem;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    font-size: .3rem;
+}
+.problem_i {
+    background: url(/static/images/v2/icon-query.png) no-repeat;
+    width: .5rem;
+    height: .5rem;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+.return_i {
+    background: url(/static/images/v2/icon-Return.png) no-repeat;
+    width: .6rem;
+    height: .6rem;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+}
+/*.return_i{*/
+    /*margin-top: .8rem !important;*/
+    /*width: 1.5rem !important;*/
+    /*height: 1.5rem !important;*/
+/*}*/
+.top_height{
+    height: 1.25rem !important;
+}
+
+/*余额说明*/
+.wallet_secone{
+    width: 100%;
+    font-size: .4rem;
+    line-height: .1rem;
+    background: white;
+    height: 1.5rem;
+    margin-bottom:.2rem
+}
+.wallet_secone .tc_divleft {
+    width: 49.8%;
+    float: left;
+    text-align: center;
+    padding-top: .3rem;
+    background: white;
+    padding-bottom: .2rem;
+}
+.wallet_secone  strong{
+    color: #FF6A4D;
+    font-size: .5rem;
+
+}
+.wallet_secone .tc_divmiddle {
+    background: #EDEDED;
+    width: .3%;
+    height: .74rem;
+    float: left;
+    margin-top: .4rem;
+}
+.wallet_secone .tc_divright {
+    width: 49.8%;
+    float: left;
+    text-align: center;
+    padding-top: .2rem;
+    background: white;
+    padding-bottom: .2rem;
+}
+.m-webbox{
+    background: white;
+    margin-top: .4rem;
+}
+.spoke{
+    height: .06rem;
+    width: 30%;
+    background: #FF6A4D;
+    position: relative;
+    top:-.25rem;
+    left: 10%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.walletList{
+    background: white;
+    font-size: .4rem;
+    padding: 0.3rem .5rem;
+    line-height: .5rem;
+    border-bottom: .01rem solid gainsboro;
+    height: 1rem;
+}
+.walletList label{
+    color: grey;
+    font-size: .3rem;
+}
+.walletList strong{
+    float: right;
+    position: relative;
+    top: -0.26rem;
+    font-size: .45rem;
+    color:#FF6A4D;
+}
+.explain_p{
+    text-align: right;
+    color: #666666;
+    font-size: .3rem;
+    margin-top: 0.21rem;
+    margin-right: .4rem;
+}
+.explain_p i{
+    width: .3rem;
+    height: .3rem;
+    background: url(/static/images/v2/icon_youhuiquanwenhao.png) no-repeat;
+    background-size:contain;
+    display: -webkit-inline-box;
+    position: relative;
+    right: .1rem;
+    top: .04rem;
+}
+.wallet_secone_home {
+    width: 100%;
+    font-size: .4rem;
+    line-height: .1rem;
+    background: white;
+    height: 1.9rem;
+}
+
+.wallet_secone_home .tc_divleft {
+    width: 49.8%;
+    float: left;
+    text-align: center;
+    padding-top: .3rem;
+    background: white;
+    padding-bottom: .2rem;
+}
+.wallet_secone_home  strong{
+    color: #FF6A4D;
+    font-size: .5rem;
+
+}
+.wallet_secone_home .tc_divmiddle_home {
+    background: #EDEDED;
+    width: .3%;
+    height: 1.14rem;
+    float: left;
+    margin-top: .4rem;
+}
+.wallet_secone_home .tc_divright {
+    width: 49.8%;
+    float: left;
+    text-align: center;
+    padding-top: .3rem;
+    background: white;
+    padding-bottom: .2rem;
+}
+.GainList button ,.UseList  button{
+    text-align: center;
+    font-size: .4rem;
+    color: #9C9595;
+    margin: .7rem auto .4rem auto;
+    display: block;
+    height: 1.2rem;
+    width: 40%;
+    border: none;
+    background: #F3F3F3
+}
+.GainList button ,.UseList  button:hover {
+    outline: none;
+}
+.GainList button ,.UseList  button:active {
+    outline: none;
+}
+.GainList button ,.UseList  button:focus {
+    outline: none;
+}

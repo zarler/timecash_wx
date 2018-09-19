@@ -1,0 +1,114 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.withdrawals-one{
+    background: white;
+    height: 2.8rem;
+    margin: .2rem 0;
+    padding: 0 3%;
+}
+.withdrawals-one p{
+    color: #666666;
+    font-size: .35rem;
+    text-align: center;
+    height: 1rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+.withdrawals-one h1{
+    color: #FF8470;
+    font-size: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    margin: 0;
+}
+.withdrawals-two {
+    background: white;
+    height: 2.8rem;
+    margin-bottom: .2rem;
+    padding: 0 3%;
+}
+.withdrawals-two div{
+    height: 1.4rem;
+    line-height: 1.4rem;
+    font-size: .38rem
+}
+.withdrawals-two span{
+    float: right;
+}
+.withdrawals-two img{
+    position: relative;
+    right: .2rem;
+    width: .5rem;
+    top: .1rem;
+}
+.withdrawals-three{
+    height: 1.4rem;
+    background: white;
+    line-height: 1.4rem;
+    padding: 0 3%;
+    font-size: .38rem
+}
+.withdrawals-three input{
+    margin-left: .7rem;
+    height: 1.1rem;
+    width: 70%;
+    font-size: .36rem;
+    border: none;
+}
+
+.button_submit_little {
+    width: 60%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    border: 1px solid #ff8470;
+    height: 1.05rem;
+    box-sizing: border-box;
+    font-size: .4rem;
+    text-align: center;
+    line-height: 1.05rem;
+    display: block;
+    background-color: #ff8470;
+    color: white;
+}
+.withdrawals-p{
+    font-size: .35rem;
+    padding: .2rem 4%;
+    color: #666666;
+    line-height: .54rem;
+}
+.withdrawals-p span{
+    color: #FF8470;
+}
+
+
+.i{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+.wsp1{
+    text-align: center;
+    color: black;
+    font-size: .5rem;
+    margin: .2rem;
+}
+.wsp2{
+    text-align: center;
+    color: grey;
+    font-size: .35rem;
+    margin-bottom: 1.5rem;
+}
+.wspa{
+    border: 1px solid red;
+    color: red;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: .5rem;
+    padding: .2rem 0;
+    font-weight: 100;
+    border-radius: .2rem;
+}

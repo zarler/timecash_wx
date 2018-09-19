@@ -1,0 +1,180 @@
+/*还款 refund.html*/
+/*.wrap{padding-bottom: 2.5rem;}*/
+.m-nav{width: 100%;height:2.45rem;background:#fff;border-top: 1px solid #d6d6d6;position: fixed;bottom: 0px;left: 0;}
+.m-nav ul{list-style: none;padding: 0.35rem 0.5%;overflow: hidden;}
+.m-nav ul li{float: left;width:33%;text-align: center;font-size: 0.5rem;}
+.m-nav ul li a{display: inline-block;}
+.m-nav ul li.m-lastnav{margin-right: 0;}
+ /*灰色状态*/
+.m-nav ul li i{width: 1.1rem;height: 1.2rem;display: block;background: url(../images/nav-icon.png)  0 0 no-repeat;background-size: 8rem 1.25rem;margin: 0 auto;margin-bottom: 0.15rem;}
+.m-nav ul li p{font-size: 0.5rem;color: #696969;}
+.m-nav ul li i.icon3{background-position: -5.5rem 0;}
+.m-nav ul li i.icon2{background-position: -2.7rem 0; }
+.m-nav ul li i.icon1{background-position: 0 0; }
+
+/*选中状态*/
+.m-nav ul li.checked p{color: #e00000;}
+.m-nav ul li.checked i.icon1{background-position: -1.25rem 0;}
+.m-nav ul li.checked i.icon3{background-position: -6.75rem 0;}
+.m-nav ul li.checked i.icon2{background-position:-4.15rem 0;}
+
+
+.m-refundnumbox{width: 8.35rem;margin:2rem auto 1.5rem;text-align: center;font-size: 0.9rem;color: #5d5d5d;}
+.m-refundnumbox p.m-num{color: #ff7200;margin-top: 1.1rem;}
+.m-refundnumbox p.m-num span{font-size: 2.1rem;}
+.m-addfontsize{font-size: 0.75rem;}
+.t-login-center-1 label{float:right;color: #444444;}
+.m-bo1px{border-top: 1px solid #e0e0e0;}
+.m-addheight{height: 3rem;line-height: 3rem;font-size: 0.75rem;}
+.m-addheight input{color: #b0b0b0;}
+.m-position{top: 0.85rem;}
+.t-error.m-refunderror{padding-bottom: 0.65rem;}
+
+/*还款成功*/
+.m-successbox{}
+.m-successbg{width: 13.5rem;height: 8.85rem;background: url(../images/m-successbg.png) center center no-repeat;background-size: cover;padding-top: 3.55rem;margin: 0.75rem auto 3.25rem;}
+.m-successbg img{width: 3.45rem;height: 2rem;display:block;margin: 0 auto;}
+.m-successbg p.m-successtxt{text-align: center;color: #5d5d5d;font-size: 1.25rem;line-height: 0.7rem;margin: 1.2rem 0 2.2rem;}
+.m-successbg p.m-borrow{color: #7f7f7f;font-size: 0.75rem;text-align: center;line-height: 0.7rem;}
+.m-returnbox{width: 12.5rem;margin: 0 auto;}
+
+/*立即借款无借款记录*/
+.m-pbt{padding-bottom: 3.15rem;}
+.m-tipbox ul{ height:1.3rem;overflow: hidden;line-height:1.3rem;background: #fff1e5;color: #8e8d8d;font-size: 0.6rem;text-align: center; }
+.m-tipbox li{height: 1.3rem; float: left;width:100%;}
+.m-information{padding: 1rem 0}
+.m-pic{width: 5rem;height: 5rem;overflow:hidden;border: 1px solid #ff7200;border-radius: 5rem;margin: 0 auto;padding: 0.37rem;}
+.m-pic img{width: 5rem;height: 5rem;background-color: #fff;border-radius: 5rem;}
+.m-name{font-size: 0.9rem;color: #5d5d5d;text-align: center;margin: 0.5rem 0 1rem;line-height: 1rem;}
+.m-limit{font-size: 0.6rem;color: #8e8d8d;text-align: center;}
+.m-limitnum{font-size: 2.5rem;color: #ff7200;text-align: center;margin: 0.5rem 0 0;}
+.m-login-center{margin: 0 0.75rem;background: #fff;  border: 1px solid #e0e0e0;
+  border-radius: 0.3rem;}
+.m-login-center p.m-title{height: 2.25rem;line-height: 2.25rem;text-align: center;font-size: 0.8rem;border-bottom: 1px solid #e5e5e5;font-size: 0.75rem;color: #5d5d5d;position: relative;}
+p.m-tip{text-align: center;padding: 2.55rem 0;}
+.m-login-center p.m-title a{width: 1.35rem;height: 1.35rem;display: block;background: url(../images/m-frashbtn.png) 0 0 no-repeat;background-size: cover;position: absolute;top: 0.45rem;right: 0.75rem;}
+.m-toborrow{margin: 0.5rem 0.75rem 0;}
+.t-red-btn.m-toborrowbtn{width: 100%;}
+
+/*账户管理*/
+.m-con{margin: 0.75rem 0 0;}
+.m-block{margin-bottom: 0.5rem;background: #fff;padding-left:0 1.8rem;border: 1px solid #e0e0e0;}
+.m-pr{position: relative;}
+.m-block p{color: #444444;font-size: 0.8rem;line-height: 2.5rem;margin-left: 2.55rem;}
+.m-block i{width: 1.1rem;height: 1.1rem;display: block;background: url(../images/m-manage-icon.png) -0.02rem -0.07rem no-repeat;background-size: 1.25rem 15.65rem;position: absolute;left: 0.75rem;top: 0.75rem;}
+.m-block em{width: 0.45rem;height: 0.75rem;display: block;background: url(../images/m-manage-icon.png) -0.3rem -1.6rem no-repeat;background-size: 1.25rem 15.65rem;position: absolute;right: 0.75rem;top: 0.9rem;}
+.m-block p.m-border{border-bottom: 1px solid #e0e0e0;}
+.m-block i.m-changcodeicon{background-position: -0.1rem -3.15rem;}
+.m-block i.m-changcardicon{background-position: 0.02rem -5.82rem;}
+.m-block i.m-papericon{background-position: -0.02rem -8.85rem;}
+.m-block i.m-recodeicon{background-position: -0.02rem -11.2rem;}
+.m-block i.m-helpicon{background-position: -0.02rem -14.25rem;}
+
+/*提升额度*/
+.m-webbox{margin: 0 0.75rem 0;background: #fff;border: 1px solid #e0e0e0;border-radius: 0.2rem;}
+.m-lineblock{height: 2.7rem;line-height:3rem;border-bottom: 1px solid #efefef;position: relative;}
+.m-lineblock.m-noborder{border: none;}
+.m-lineblock  span{width: 1.3rem;height: 1.3rem;display: inline-block;background-size:cover;border-radius: 1.75rem;position: absolute;top: 0.75rem;left: 0.75rem;}
+/*.m-lineblock  span{width: 1.75rem;height: 1.75rem;display: inline-block;background: #f5f5f5 url(../images/m-mailicon.png) 0 0 no-repeat;background-size:cover;border-radius: 1.75rem;position: absolute;top: 0.75rem;left: 0.75rem;}*/
+.m-lineblock  .m-autonym{background-image: url(../images/credit/icon_autonym.png);}
+.m-lineblock  .m-tongxunlu{background-image: url(../images/credit/icon_addressbook.png);}
+.m-lineblock  .m-duanxin{background-image: url(../images/credit/icon_sms.png);}
+.m-lineblock  .m-yuyin{background-image: url(../images/credit/icon_callrecords.png);}
+.m-lineblock  .m-map{background-image: url(../images/credit/icon_locationinformation.png);}
+.m-lineblock  .m-corporation{background-image: url(../images/credit/icon_work.png);}
+.m-lineblock  .m-jiating{background-image: url(../images/credit/icon_jiating.png);}
+.m-lineblock  .m-urgency{background-image: url(../images/credit/icon_urgency.png);}
+.m-lineblock  .m-taobao{background-image: url(../images/credit/icon_taobao.png);}
+.m-lineblock  .m-jingdong{background-image: url(../images/credit/icon_jingdong.png);}
+.m-lineblock  .m-zhima{background-image: url(../images/credit/icon_zhima.png);}
+.m-lineblock  .m-iphone{background-image: url(../images/credit/icon_operater.png);}
+.m-lineblock  .m-face{background-image: url(../images/credit/icon_face.png);}
+.m-lineblock  .m_face_credit{background-image: url(../images/credit/icon_face_credit.png);}
+
+.m-lineblock label{color: #5d5d5d;font-size: 0.6rem;padding-left: 3rem;}
+/*未认证状态*/
+.m-lineblock a{color: #fff;font-size: 0.6rem;background: #ff7200;width: 3.3rem;height: 1.35rem;display: inline-block;text-align: center;line-height: 1.35rem;border-radius: 0.2rem;position: absolute;right: 0.75rem;top: 0.75rem;}
+/*已认证状态*/
+.m-lineblock a.identify{color: #5d5d5d;font-size: 0.6rem;background: #f1f1f1;width: 3.3rem;height: 1.35rem;display: inline-block;text-align: center;line-height: 1.35rem;border-radius: 0.2rem;position: absolute;right: 0.75rem;top: 0.75rem;}
+.m-lineblock a.identify1{color: #ff7200;font-size: 0.6rem;background: white;width: 3.3rem;height: 1.35rem;display: inline-block;text-align: center;line-height: 1.35rem;border-radius: 0.2rem;position: absolute;right: 0.75rem;top: 0.75rem;border: 1px solid #f1f1f1}
+
+/*逾期*/
+.m-login-center .m-showinfor{padding: 1.25rem 1.15rem 1.25rem 1.7rem;font-size: 0.6rem;color: #5d5d5d;position: relative;}
+.m-login-center .m-showinfor span{width:49%;display: inline-block;text-align: center;}
+.m-login-center .m-showinfor span.m-border{border-right: 1px solid #e5e5e5;}
+.m-login-center .m-showinfor span em{font-size: 1.5rem;color: #ff7200;}
+.m-login-center .m-yuqidate{text-align: center;font-size: 0.9rem;color: #8e8d8d;height: 2.5rem;line-height: 2.5rem;background: #fff1e5;}
+.m-login-center .m-yuqidate span{color: #ff7200;margin: 0 0.5rem;}
+.m-login-center .m-showinfor i{width: 0.55rem;height: 1rem;display: block;background: url(../images/m-gticon.png) 0 0 no-repeat;background-size: cover;position: absolute;top: 1.5rem;right: 1.15rem;}
+
+/*放款中*/
+.m-login-center .m-yuqidate span.m-credit{font-size: 1rem;}
+
+/**/
+.m-login-center .m-yuqidate.m-check-status{background: #e8e8e8;color: #8e8d8d;font-size: 1rem;}
+.t-red-btn.m-graycolor{background: #c9c9c9;color: #ffffff;border: none;}
+
+/*授信管理*/
+.c-credit-basics{margin:0.75rem 0.85rem 0.35rem;font-size: 0.75rem}
+.c-credit-basics span{float:right;font-size: 0.45rem;padding-top: 0.2rem}
+.c-credit-basics-center{text-align:center;font-size: 12px;font-weight:initial}
+.votebox {
+  width: 80%;
+  margin-left: 15px;
+  position: relative;
+  z-index: 66;
+  text-align: center;
+}
+.barbox {
+  height: 16px;
+  line-height: 16px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.barbox dd.barline {
+  width: 80%;
+  /*background: url(../images/credit/jdtbg.png) left center no-repeat;*/
+  height: 16px;
+  overflow: hidden;
+  display: inline;
+}
+.barbox dd.barline div.charts {
+   height: 16px;
+   overflow: hidden;
+   background: url(../images/credit/barbg.gif) right center repeat-x;
+   border-radius: 8px;
+ }
+
+
+.c-credit-promote {
+  background: url(../images/credit/icon_bj.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  background-origin: content-box;
+  height: 120px;
+}
+
+.c-credit-promote .creditban  {
+  width: 160px;
+  height: 90px;;
+  position:relative;
+  top:-50px;
+  margin:0 auto;
+  background: url(../images/credit/icon_ban.png) 0 0 no-repeat;
+  background-size: contain;
+}
+/*借款入口页面*/
+
+.m-pic-borrow{
+  width: 6rem;
+  height: 6rem;
+  overflow: hidden;
+  border: 1px solid #ff7200;
+  border-radius: 6rem;
+  margin: 0 auto;
+}
+.m-pic-borrow img{
+  width: 6rem;
+  height: 6rem;
+  background-color: #fff;
+  border-radius: 6rem;
+}

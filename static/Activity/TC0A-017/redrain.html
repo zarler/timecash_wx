@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>免单免息提额，大额优惠券通通都在红包雨</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /> -->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/redrain.css">
+    <link rel="stylesheet" type="text/css" href="./css/rain.css">
+    <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.jCarouselLite.js"></script>
+    <script type="text/javascript">
+    //ready 函数
+    var readyRE = /complete|loaded|interactive/;
+    var ready = window.ready = function (callback) {
+        if (readyRE.test(document.readyState) && document.body) callback()
+        else document.addEventListener('DOMContentLoaded', function () {
+            callback()
+        }, false)
+    }
+    //rem方法
+    function ready_rem() {
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        var _html = document.getElementsByTagName('html')[0];
+        if (view_width > 750) {
+            _html.style.fontSize = 750 / 16 + 'px'
+        } else {
+            _html.style.fontSize = view_width / 16 + 'px';
+        }
+    }
+    ready(function () {
+        ready_rem();
+    });
+</script>
+
+
+<script>
+$(function(){
+function game(){
+    $(".page-time span").text(8);
+    $(".div").removeClass("bg_2");
+    $(".page-time").show();
+    
+    Timerr = window.setInterval(aa,100); //数量速度
+    var removepackage = setInterval(function(){
+            for(var jj=0;jj<$('.div>div').size()/4;jj++){
+            $('.div>div').eq($('.div>div').size()-jj).remove();
+            }
+        },1000)
+    
+    function aa(){
+        for(var i=0;i<4;i++){
+            var m=parseInt(Math.random()*700+100);
+            var j2=parseInt(Math.random()*300+1200);
+            var j=parseInt(Math.random()*1600+000); //红包起始右侧位置
+            var j1=parseInt(Math.random()*100+300); //
+            var n=parseInt(Math.random()*10+(-100)); //红包起始顶部位置
+            $('.div').prepend('<div class="dd"></div>');
+            $('.div').children('div').eq(0).css({'right':j,'top':n});
+            $('.div').children('div').eq(0).animate({'right':j-j1,'top':$(window).height()+200},3000);
+        }
+    };
+
+//    runTime = window.setInterval(run, 1000);
+//    function run(){
+//        var s = $(".page-time span").text();
+//        if(s == 0){
+//            $("#pop-end").show();
+//            $(".page-time").hide();
+//            window.clearInterval(runTime);
+//            window.clearInterval(Timerr);
+//            return false;
+//        }
+//        s--;
+//        $(".page-time span").text(s);
+//    }
+    
+}
+
+
+var a =0;
+$(document).on('touchstart', '.dd', function(){
+    $(this).css("background-position","0 -4.907rem");
+    a++;
+    if(a == 1){
+        $("#pop-bonus").show();
+        window.clearInterval(window.Timerr);
+        window.clearInterval(window.runTime);
+        $(".div").removeClass("bg_1");
+        setTimeout(function(){
+            $(".page-time").hide();
+            $(".div").addClass("bg_2");
+        },2000);
+        a = 0;
+    }
+}); 
+
+game();
+
+$(".begin").on("touchend",function(){
+    $(".pop-wrap").hide();
+    game();
+})
+    
+})
+
+</script>
+</head>
+<body>
+<div class="redrain-notice">
+    <div id="scroll_div">
+         <ul>
+            <li>恭喜138****3232获得免单红包</li>
+            <li>恭喜138****3321获得免单红包</li>
+            <li>恭喜138****2222获得免单红包</li>
+            <li>恭喜138****3333获得免单红包</li>
+        </ul>
+    </div>
+</div>
+<div class="page_rain">
+    <div class="page-time"><span>8</span>s</div>
+    <div class="div bg_1"></div>
+</div>
+
+<!-- 弹窗开始 -->
+
+<!-- 游戏时间结束 -->
+<div class="pop-wrap js-mask" id="pop-end">
+    <div class="redrain-pop-mask"></div>
+    <div class="redrain-pop">
+        <div class="redrain-pop-close" data-toggle="mask" data-target="js-mask"></div>
+        <div class="redrain-pop-end"></div>
+        <div class="redrain-pop-btn">
+            <a href="list.html">查看获奖记录</a>
+            <a href="javascript:;" class="begin">再玩一次</a>
+        </div>
+    </div>
+</div>
+<!-- End 游戏时间结束 -->
+
+<!-- 抢到红包 -->
+<div class="pop-wrap js-mask" id="pop-bonus" style="display: ;">
+    <div class="redrain-pop-mask"></div>
+    <div class="redrain-pop">
+        <div class="redrain-pop-close" data-toggle="mask" data-target="js-mask"></div>
+        <div class="redrain-pop-bonus">
+            <p>¥<big>30</big></p>
+            <p>恭喜您本次红包雨获得<span>30</span>元优惠券</p>
+        </div>
+        <div class="redrain-pop-btn bonus-btn">
+            <a href="list.html">查看获奖记录</a>
+            <a href="javascript:;" class="begin">再玩一次</a>
+        </div>
+    </div>
+</div>
+<!-- End 抢到红包 -->
+
+<!-- 未抢到红包 -->
+<div class="pop-wrap js-mask" style="display: ;">
+    <div class="redrain-pop-mask"></div>
+    <div class="redrain-pop">
+        <div class="redrain-pop-close" data-toggle="mask" data-target="js-mask"></div>
+        <div class="redrain-pop-none">
+            <p>很遗憾未中奖</p>
+        </div>
+        <div class="redrain-pop-btn bonus-none">
+            <a href="list.html">查看获奖记录</a>
+            <a href="javascript:;" class="begin">再玩一次</a>
+        </div>
+    </div>
+</div>
+<!-- End 未抢到红包 -->
+
+<!-- 赞过了 -->
+<div class="pop-wrap js-mask" style="display: ;">
+    <div class="redrain-pop-mask"></div>
+    <div class="redrain-pop">
+        <div class="redrain-pop-close" data-toggle="mask" data-target="js-mask"></div>
+        <div class="redrain-pop-done"></div>
+    </div>
+</div>
+<!-- End 赞过了 -->
+
+<!-- 3次机会用完 -->
+<div class="pop-wrap js-mask" style="display: ;">
+    <div class="redrain-pop-mask"></div>
+    <div class="redrain-pop">
+        <div class="redrain-pop-close" data-toggle="mask" data-target="js-mask"></div>
+        <div class="redrain-pop-chance"></div>
+        <div class="redrain-pop-btn">
+            <a href="javascript:;">马上邀请</a>
+        </div>
+    </div>
+</div>
+<!-- End 3次机会用完 -->
+<script type="text/javascript">
+//消息滚动
+jQuery("#scroll_div").jCarouselLite({
+    auto:1000,
+    speed:2000,
+    visible:1,
+    vertical:false
+});
+$(function(){
+
+    //弹窗关闭隐藏
+    $(document).on('touchend', '[data-toggle="mask"]', function (event) {
+        event.stopPropagation();
+        var target = $(this).attr("data-target");
+        $("."+target).hide();
+
+    });
+
+    // 弹窗调用
+    $(document).on('touchend', 'a[data-target]',function(event){
+        event.stopPropagation();
+        var target = $(this).attr("data-target");
+            $("div[data-module="+target+"]").show();
+    });
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+.repaydetais1{
+    color: white;
+    margin: .2rem 3%;
+    height: 10rem;
+    border-radius: .3rem;
+    width: 94%;
+    background: -webkit-linear-gradient(left, #FF3B2D , #FF6C30); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #FF3B2D, #FF6C30); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #FF3B2D, #FF6C30); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #FF3B2D , #FF6C30); /* 标准的语法 */
+}
+.repaydetais1 .one{
+    height: 6.8rem;
+    width: 90%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    margin: 0 auto;
+    text-align: center;
+}
+.repaydetais1 .one p{
+    height: 2.27rem;
+}
+
+.repaydetais1 .p1{
+    font-size: .6rem;
+    line-height: 2.9rem;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.63);
+}
+.repaydetais1 .p2{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.repaydetais1 .p3{
+    font-size: .65rem;
+    line-height: 1rem;
+}
+.repaydetais1 ul{
+    height: 3.2rem;
+    width: 100%;
+    margin: 0 3%;
+    font-size: .8rem;
+}
+.repaydetais1 ul li{
+    width: 30%;
+    border-right: 1px solid rgba(255, 255, 255, 0.63);
+    height: 1.5rem;
+    float: left;
+    margin-top: .75rem;
+    padding-left: 3%;
+    line-height: .85rem;
+}
+.repaydetais1 li em{
+    font-size: .65rem;
+    color: rgba(255, 255, 255, 0.63);
+}
+.repaydetais_p1{
+    margin: .6rem 4% .4rem 4%;
+    font-size: .65rem;
+    color: #666666;
+}
+.repaydetais2{
+    height: 2rem;
+    line-height: 2rem;
+    padding: .2rem 4%;
+    font-size: .7rem;
+    display: block;
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+.repaydetais2  label{
+    float: right;
+    color: #999999;
+}
+.repaydetais2  label em{
+    color: #FE8A2A;
+    margin-left: .4rem;
+    height: 1.5rem;
+    position: relative;
+    top: -.04rem;
+}
+footer{
+    height: 2.5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    -moz-box-shadow: 0 -4px 6px #e2e2e2;
+    -webkit-box-shadow: 0 -4px 6px #e2e2e2;
+    box-shadow: 0 -4px 6px #e2e2e2;
+}
+footer label{
+    color: #222222;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding-left: 6%;
+    font-size: 1rem;
+    width: 50%;
+    display: inline-block;
+}
+footer a{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: -webkit-linear-gradient(left, #FF3B2D , #FF6C30);
+    background: -o-linear-gradient(right, #FF3B2D, #FF6C30);
+    background: -moz-linear-gradient(right, #FF3B2D, #FF6C30);
+    background: linear-gradient(to right, #FF3B2D , #FF6C30);
+    text-align: center;
+    font-size: .8rem;
+    width: 35%;
+    float: right;
+    color: white;
+
+}
+/******************************************************************************************/
+.repayope1{
+    height: 5rem;
+    width: 100%;
+    background: white;
+    margin: .5rem 0;
+}
+.repayope1 .p1{
+    text-align: center;
+    font-size: .6rem;
+    height: 2.5rem;
+    color: rgba(153, 153, 153, 0.62);
+    line-height: 3rem;
+
+}
+.repayope1 .p2{
+    text-align: center;
+    height: 2.5rem;
+    font-size: 1.6rem;
+    color: #FF502E;
+}
+.repayope2{
+    height: 2rem;
+    line-height: 2rem;
+    padding: .2rem 4%;
+    font-size: .7rem;
+    display: block;
+    background: white;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3rem;
+}
+.repayope2  label{
+    float: right;
+    color: #999999;
+}
+.repayope2 img{
+    width: .8rem;
+    position: relative;
+    top: .14rem;
+    right: .12rem;
+}
+.repayope2 i{
+    width: .6rem;
+    background: url(/static/images/v2/icon-into.png) no-repeat;
+    background-size: 100%;
+    display: -webkit-inline-box;
+    position: relative;
+    top: .65rem;
+
+}
+.repayope3{
+    margin: 0.8rem 5%;
+    font-size: .6rem;
+    color: rgba(153, 153, 153, 0.62);
+}
+.repayope3 em{
+    color: #72A6FE;
+    margin-left: .3rem;
+}
+/******************************************************************************************/
+

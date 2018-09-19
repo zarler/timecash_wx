@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2017-12-22
+ * @version christmas
+ */
+
+body{background-color: #e33e23; color:#771e19;}
+.box{width: 14.699rem;margin: 0.427rem auto 1.707rem; padding:1.621rem 1.067rem 0.213rem; box-sizing: border-box; font-size: 0.597rem; position: relative; background:url('../images/box-repeat.png') top center repeat-y; background-size:  14.699rem 0.384rem;}
+.box-top,
+.box-bottom{position:absolute; width: 14.699rem;  height: 0.64rem; left: 0; z-index: 1;}
+.box-top{top: -0.427rem; background:url('../images/box-top.png') 0 0 no-repeat; background-size:100%;}
+.box-bottom{bottom: -0.427rem; background:url('../images/box-bottom.png') 0 0 no-repeat; background-size:100%;}
+
+.box2{width: 14.485rem;margin: 0.427rem auto 1.707rem; padding:1.221rem 1.067rem 0.213rem; box-sizing: border-box; font-size: 0.597rem; position: relative; background:url('../images/box2-repeat.png') top center repeat-y; background-size:  14.485rem 0.384rem;}
+.box2-top,
+.box2-bottom{position:absolute; width:14.485rem;  height: 0.64rem; left: 0; z-index: 1;}
+.box2-top{top: -0.427rem; background:url('../images/box2-top.png') 0 0 no-repeat; background-size:100%;}
+.box2-bottom{bottom: -0.427rem; background:url('../images/box2-bottom.png') 0 0 no-repeat; background-size:100%;}
+
+.box.rule p{line-height: 0.96rem; margin-bottom: 0.34rem;}
+.box h2,
+.box2 h2{width:100%; position:absolute; top: -0.299rem; left: 0; z-index: 10; height:1.237rem; line-height: 1.237rem; text-align: center; color:#fff; font-size: 0.768rem;}
+.box.rule h2{ background:url('../images/title1.png') center top no-repeat; background-size: 5.824rem 1.237rem; }
+.box.list,
+.box2.list{text-align: center;}
+.box.list h2,
+.box2.list h2{ background:url('../images/title2.png') center top no-repeat; background-size: 8.853rem 1.237rem; }
+.box2.list h2{top:-0.427rem;}
+.box.list h3,
+.box2.list h3{font-size: 0.64rem; margin-bottom: 0.427rem;margin-top: .4rem;}
+.box.list h3 span,
+.box2.list h3 span{display: inline-block; position:relative; padding:0 0.939rem;}
+.box.list h3 span:after,
+.box.list h3 span:before,
+.box2.list h3 span:after,
+.box2.list h3 span:before{position:absolute; content:''; height:1px; width: 0.427rem; background-color: #f9623e; top: 50%;}
+.box.list h3 span:before,
+.box2.list h3 span:before{left: 0;}
+.box.list h3 span:after,
+.box2.list h3 span:after{right: 0;}
+.box.list ul,
+.box2.list ul{margin:0 -0.64rem;}
+.box.list li,
+.box2.list li{line-height: 1.195rem;}
+.box.list li span,
+.box2.list li span{display: inline-block; }
+.box.list li span:first-child,
+.box2.list li span:first-child{width: 40%;}
+.box.list li span:last-child,
+.box2.list li span:last-child{width: 60%;}
+.box.list a.btn,
+.box.list a.btn:visited,
+.box.list a.btn:hover,
+.box.list a.btn:active{display: inline-block;width:5.248rem; margin: 0.64rem 0 0.213rem; color:#771e19; height:1.024rem; line-height: 1.024rem; text-align: center; font-size: 0.555rem; border:1px solid #771e19; border-radius: 1.024rem;}
+
+.list-box{background-color: #ffe0bf; padding-top: 0.853rem;}

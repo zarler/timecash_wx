@@ -1,0 +1,129 @@
+/*版本3.0用*/
+body{
+    padding: 0;
+    margin: 0;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.t-login-nav {
+    background: white;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-bottom: 1px solid #f7f2f2;
+    position: fixed;
+    z-index: 99;
+}
+.top_height{
+    height: 1.2rem !important;
+}
+.t-login-nav-1 {
+    text-align: center;
+    color: #363636;
+    font-size: .5rem;
+    border-bottom: .03rem solid #EAE9EA;
+}
+.border-bottom{  border-bottom:1px solid #f7f2f2 !important;  }
+.return_i {
+    background: url(/static/images/v2/icon-Return.png) no-repeat;
+    width: .6rem;
+    height: .6rem;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: .27rem;
+    left: .25rem;
+    position: absolute;
+}
+.m-webbox div {
+    background: #fff;
+    border-radius: .2rem;
+    padding: 0 .3rem;
+    border-bottom: 1px solid #f7f2f2;
+}
+.m-lineblock {
+    height: 1.2rem;
+    line-height: 1.5rem;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    border-radius: 0 !important;
+}
+.left_i{
+    position: relative;
+    top: -.2rem;
+}
+.m-lineblock i {
+    width: .5rem;
+    height: .5rem;
+    margin-top: .33rem;
+}
+.inter_i {
+    background-image: url(/static/images/v2/icon-into.png);
+    display: inline-table;
+    background-size: cover;
+}
+.float_right {
+    float: right;
+}
+.m-tongxunlu {
+    background-image: url(/static/images/v2/icon-addressbook.png);
+    display: inline-table;
+    background-size: cover;
+}
+.m-icon-Coupon{
+    background-image: url(/static/images/v2/icon-Coupon.png);
+    display: inline-table;
+    background-size: cover;
+}
+.m-yaohaoyou {
+    background-image: url(/static/images/v2/peoplepull/icon_yaohaoyou.png);
+    display: inline-table;
+    background-size: cover;
+}
+.m-lineblock label {
+    color: black;
+    font-size: .4rem;
+    padding-left: .2rem;
+    position: absolute;
+    top: -.1rem;
+}
+
+.button_submit_little {
+    width: 60%;
+    margin: 3rem auto;
+    border-radius: .6rem;
+}
+a.t-gray-btn, a.t-orange-btn, a.t-orange-btn2, input.t-gray-btn, input.t-orange-btn, input.t-red-btn2 {
+    border: 1px solid #ff8470;
+    height: 1.05rem;
+    box-sizing: border-box;
+    font-size: .35rem;
+    text-align: center;
+    line-height: 1.05rem;
+    display: block;
+    background-color: #ff8470;
+    color: white;
+
+}
+.button_submit_f{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    background: -webkit-linear-gradient(left, #FF3B2D , #FF6C30);
+    background: -o-linear-gradient(right, #FF3B2D, #FF6C30);
+    background: -moz-linear-gradient(right, #FF3B2D, #FF6C30);
+    background: linear-gradient(to right, #FF3B2D , #FF6C30);
+    text-align: center;
+    font-size: .45rem;
+    display: block;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    -moz-box-shadow: 0 4px 6px rgba(254, 121, 77, 0.33);
+    -webkit-box-shadow: 0 4px 6px rgba(254, 121, 77, 0.33);
+    box-shadow: 0 4px 6px rgba(254, 121, 77, 0.33);
+}

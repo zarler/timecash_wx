@@ -1,0 +1,231 @@
+/*侧栏的头部*/
+.settings {
+  float:left;
+  width:100%;
+  margin:0;
+  font-size:20px;
+  font-family: 'Strait', sans-serif;
+  padding: 1rem 2rem;
+}
+.settings span{
+  font-size: 14px;
+  color: #000000;
+  display:inline-table;
+  line-height:1.1rem;
+  margin-left:1rem
+}
+.settings img{
+  width:2.5rem;
+  border-radius:3rem
+}
+.fa-lg {
+  font-size: 1em;
+  
+}
+.fa {
+  position: relative;
+  text-align: center;
+  left:1.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: list-item;
+  top: .2rem;
+}
+
+.record_icon_i{
+  background: url(/static/images/v2/icon-Record.png) no-repeat;
+  background-size:contain;
+}
+.creditgranting_icon_i{
+  background: url(/static/images/v2/icon-creditgranting.png) no-repeat;
+  background-size:contain;
+}
+.card_icon_i{
+  background: url(/static/images/v2/icon--card.png) no-repeat;
+  background-size:contain;
+}
+.coupon_icon_i{
+  background: url(/static/images/v2/icon-Coupon.png) no-repeat;
+  background-size:contain;
+}
+.changePassword_icon_i{
+  background: url(/static/images/v2/icon-ChangePassword.png) no-repeat;
+  background-size:contain;
+}
+.question_icon_i{
+  background: url(/static/images/v2/icon-question.png) no-repeat;
+  background-size:contain;
+}
+.quit_icon_i{
+  background: url(/static/images/v2/icon-Quit.png) no-repeat;
+  background-size:contain;
+}
+
+.main-menu {
+  background:#F7F7F7;
+  position:fixed;
+  top:0;
+  bottom:0;
+  height:100%;
+  left:0;
+  width:0;
+  overflow:hidden;
+  -webkit-transition:width .2s linear;
+  transition:width .1s linear;
+  -webkit-transform:translateZ(0) scale(1,1);
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
+  opacity:1;
+  z-index: 100;
+}
+.main-menu>ul {
+  margin:7px 0;
+}
+
+.main-menu li {
+  position:relative;
+  display:block;
+  width:100%;
+}
+
+.main-menu li>a {
+  position:relative;
+  width:100%;
+  display:table;
+  border-collapse:collapse;
+  border-spacing:0;
+  color:#959595;
+  font-size: 14px;
+  text-decoration:none;
+  -webkit-transform:translateZ(0) scale(1,1);
+  -webkit-transition:all .14s linear;
+  transition:all .14s linear;
+  font-family: 'Strait', sans-serif;
+  text-shadow: 1px 1px 1px  #fff;  
+}
+
+
+.main-menu .nav-icon {
+  position:relative;
+  display:table-cell;
+  width:0;
+  height:36px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:18px;
+}
+
+.main-menu .nav-text  {
+  position:relative;
+  display:table-cell;
+  vertical-align:middle;
+  width:80%;
+  text-align:left;
+  font-family: 'Titillium Web', sans-serif;
+  padding-left:.6rem;
+  color: black;
+}
+.main-menu .nav-text-two{
+  font-size: 12px;
+  float: right;
+  margin-right: .5rem;
+  color: #999999;
+}
+.main-menu .share {
+}
+
+
+
+.main-menu .fb-like {
+  left: 180px;
+  position:absolute;
+  top: 15px;
+}
+
+.main-menu>ul.logout {
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+
+a:hover,a:focus {
+  text-decoration:none;
+  border-left:0px solid #F7F7F7;
+}
+
+nav {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+}
+
+.main-menu ul li{
+  margin:0 !important;
+  border-bottom:1px solid #f7f2f2 !important;
+  display: inline;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  background-color: #fefefe;
+  text-decoration: none;
+  float: left;
+  padding:8px 0 !important;
+}
+
+
+
+
+nav ul,nav li {
+  outline:0;
+  margin:0;
+  padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+  background-color:white;
+  text-shadow: 0px 0px 0px;
+}
+.area {
+  float: left;
+  background: #e2e2e2;
+  width: 100%;
+  height: 100%;
+}
+
+.t-mask, .t-mask-reset {
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.menu_footer{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+  line-height:1.1rem
+}
+.menu_footer div{
+  font-size: 12px;
+  color: #8b93a1;
+}
+.menu_footer a{
+  background: #DEDBDB;
+  border-radius: 0.5rem;
+  padding: .2rem .5rem;
+  color: black;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url('') format('woff');
+}

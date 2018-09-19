@@ -1,0 +1,94 @@
+@charset "utf-8";
+body{ background: #fa4427;}
+.activity-banner{width: 100%; height:29.397rem; background:url('/static/Activity/TC0A-026/images2/banner.jpg') center top no-repeat; background-size: 100%; overflow: hidden;}
+.activity-rule{ font-size: 0.555rem;  color: #fff; width: 3.307rem; height: 1.024rem; line-height: 1.024rem; background: #ff8b0e; float: right; border-bottom-left-radius:1rem; border-top-left-radius:1rem; text-align: center; margin-top: 0.512rem;}
+.activity-text{ width: 8.021rem; height: 1.344rem; font-size: 0.64rem; line-height: 1.344rem; background: url('/static/Activity/TC0A-026/images2/img.png') center top no-repeat; background-size: 100%; text-align: center; color: #fff; margin:10.453rem auto 0.533rem;}
+.activity-box,.activity-box1{ margin:0 0.427rem; border:0.064rem solid #fda532; background: #e1321b;}
+.activity-bg{ text-align: center; width: 14.059rem; height: 9.173rem; background: url('/static/Activity/TC0A-026/images2/bg.png') center top no-repeat; background-size: 100%; margin:0.213rem auto 0; overflow:hidden;}
+.activity-bg dl{ margin-left:2rem; overflow: hidden;}
+.activity-bg dl dd{ float: left; text-align: center; width: 6.4rem; margin-top: 1.4rem;}
+.activity-bg dl dd p:first-child{ display: inline-block; width: 5.248rem; height: 1.067rem; border-radius:1rem; line-height: 1.067rem; background: #fff7d5; color: #f61909; font-size: 0.853rem; text-align: center;}
+.activity-bg dl dd p:nth-child(2){ color: #999999; font-size: 0.555rem; text-align: center; line-height: 1.2rem;}
+.activity-bg dl dt{ float: left; width: 3.477rem; height: 3.563rem; background: url('/static/Activity/TC0A-026/images2/btn.png') no-repeat 0 0; display: inline-block; background-size: 100%; margin:.9rem 0 0 .5rem;}
+.activity-text1{ color: #fff; text-align: center; font-size: 0.555rem; padding-top: 3.4rem;}
+.activity-text1 span{ width: 3.72rem; display: inline-block;}
+.activity-text1 span:first-child{ text-align: left;}
+.activity-text1 span:last-child{ text-align: right;}
+.activity-btn{margin:0.683rem 0.427rem 0; overflow: hidden;}
+.activity-btn a{ display:block; float: left; width: 7.403rem; height: 2.368rem; background: url('/static/Activity/TC0A-026/images2/btn1.png') no-repeat 0 0; background-size: 100%; color: #fff; text-align: center; line-height: 1.7rem; font-size: 0.725rem; text-shadow: 0px 1px 3px rgba(228,49,10,.5)}
+.activity-btn a:last-child{background: url('/static/Activity/TC0A-026/images2/btn2.png') no-repeat 0 0;  background-size: 100%; float: right; }
+
+.activity-title{ position: relative; z-index: 2; width: 8.192rem; height: 1.771rem; background: url('/static/Activity/TC0A-026/images2/title.png') no-repeat 0 0; background-size: 100%; margin:.5rem auto -.7rem;}
+.activity-box1 dl dt{ width: 2.709rem; height: 2.709rem; background: url('/static/Activity/TC0A-026/images2/icon1.png') no-repeat 0 0; background-size: 100%; float: left; margin-right: 0.576rem;}
+.activity-box1 dl:nth-child(2) dt{background: url('/static/Activity/TC0A-026/images2/icon2.png') no-repeat 0 0; background-size: 100%;}
+.activity-box1 dl:nth-child(3) dt{background: url('/static/Activity/TC0A-026/images2/icon3.png') no-repeat 0 0; background-size: 100%;}
+.activity-box1 dl dd { float: left; padding-top: .3rem;}
+.activity-box1 dl dd h5{ color: #fff; font-size: 0.725rem; text-shadow: 0 1px 3px rgba(166,35,18,.5); line-height: 1.2rem;}
+.activity-box1 dl dd p{ font-size: 0.555rem; color: #ffbe34; line-height: 1rem;}
+.activity-box1 dl{ overflow: hidden; margin-left: 1.749rem; margin-bottom: 0.533rem;}
+.activity-box1{ padding:1.451rem 0 0.32rem; position: relative; z-index: 1; margin-bottom: 1.344rem;}
+.activity-bottom{ width: 100%; height: 2.88rem; background: #ececec; text-align: center;}
+.activity-bottom span{display: inline-block; width: 5.888rem; height: 0.939rem; background: url('/static/Activity/TC0A-026/images2/logo.png') no-repeat 0 0; background-size: 100%; margin-top: 0.981rem;}
+
+/*大转盘*/
+#outercont{ position: relative; margin:0 auto; width: 14.848rem; height: 14.848rem; background: url('/static/Activity/TC0A-026/images2/activity-lottery-bg.png') no-repeat 0 0; background-size: 100%; padding-top:.8rem; }
+#outer-cont {
+  position: relative;
+  width: 100%;}
+#inner-cont {
+  position: absolute;
+  width: 100%;
+  top:3.7rem;
+}
+#outer img{width:13.141rem; margin-top: 0.917rem; display: inline-block;}
+#inner {
+  margin-top:.7rem;
+}
+#outer img, #inner img {
+  display: block;
+  margin: 0 auto;
+}
+#inner img { width: 3.883rem; height:4.885rem; cursor: pointer; }
+.t-bomb3{ color:#e33215; font-size: 0.9rem; text-align: center; margin-top: 4.8rem; }
+
+
+/*pop*/
+.activity-layer{display: none;}
+.activity-mask{position: fixed;left:0;top:0;z-index: 3;width: 100%;height: 100%;background: rgba(0,0,0,.85);}
+.activity-pop{position: fixed;left:1.92rem;right:1.92rem;top:50%;transform:translate(0,-50%);-webkit-transform:translate(0,-50%);z-index:3;height:auto;min-height:7.467rem ;background:#fb4628;border-radius: .213rem;box-shadow: 0 0 .811rem  #d62b0e inset}
+.activity-layer.timecash .activity-pop{position: fixed !important;}
+.activity-pop-close{display: block;position: absolute;top:0;right:0;width: .853rem;height:.853rem;font-size: 0;background:url('/static/Activity/TC0A-026/images2/activity-pop-close.png') center center no-repeat;background-size: .427rem .427rem;}
+.activity-pop-btn-wrap{text-align: center;}
+.activity-pop-btn{display:inline-block;margin:.427rem .213rem 1.28rem; width: 5.056rem;height: 1.173rem;line-height:1.173rem;background:#ffd800;text-align: center;font-size: .555rem;color: #a60000;border-radius: .213rem;box-shadow: 0 -.107rem 0  #ffe67c inset,0 .107rem 0 #f92b16; vertical-align: top;}
+.activity-pop-pos{position:absolute;z-index:2;left:50%;top:-2.432rem; transform:translate(-50%,0);-webkit-transform:translate(-50%,0); width: 6.208rem;height: 2.432rem;background:url('/static/Activity/TC0A-026/images2/activity-pop-pos.png') center top no-repeat;background-size: cover;}
+.activity-pop-content{text-align: center;padding-top: 1.067rem;color: #fff;}
+.activity-pop-content>h6{font-size: .853rem;line-height: 1;}
+.activity-pop-content>h5{font-size: .853rem;line-height: 2.176rem;}
+.activity-pop-text{font-size: .64rem;line-height: .96rem;padding: .939rem 0;}
+.activity-layer.register .activity-pop-text{padding: 1.365rem 0}
+.activity-pop-text1{font-size: .64rem;line-height: .768rem;margin-top: .213rem;}
+.activity-pop-text2{font-size: .64rem;line-height: .768rem;margin-bottom: .981rem;}
+.activity-pop-text3{font-size: .64rem;line-height: .896rem;padding:.469rem 0 .213rem}
+
+.activity-pop-draw-luckmoney{margin:0 auto;padding-top:1.493rem ;width: 6.528rem;height: 5.12rem;background:url('/static/Activity/TC0A-026/images2/activity-pop-luckmoney.png') center top no-repeat;background-size: cover;box-sizing: border-box;}
+.activity-pop-draw-luckmoney>p{font-size: 1.195rem;color: #ff3615;}
+.activity-pop-draw-luckmoney>p>span{font-size: .427rem;}
+.activity-pop-draw-coupon{width: 6.528rem;}
+.activity-pop-tip{margin:.149rem 1.5rem .811rem;text-align: left;font-size: .512rem;line-height: .811rem;}
+.activity-pop-tip>p{position: relative;padding-left: .811rem;}
+.activity-pop-tip>p:first-child{padding-left: 0;}
+.activity-pop-tip>p>span{position: absolute;left:0;}
+.activity-pop-icon{width: 2.517rem;margin: .213rem auto }
+
+.activity-pop-form{text-align: left;margin:1.067rem .683rem 1.195rem;}
+.activity-pop-input{display: inline-block;padding:0 .213rem;margin-bottom: .427rem;width:100%;height: 1.728rem;color: #333;font-size: .512rem;box-sizing: border-box;background: #fff;border-radius: .213rem;}
+.activity-pop-input.min{vertical-align: middle;width: 65%;margin-right: .213rem;}
+.activity-pop-btn.min{vertical-align: middle;width: 30%;height: 1.728rem;line-height: 1.728rem;margin:0 0 .427rem 0;}
+.activity-pop-btn.min:disabled{background-color: #c9c9c9;box-shadow: none;color: #fff;}
+.activity-pop-btn.max{width: 100%;height: 1.728rem;line-height: 1.728rem;margin:0 0 .427rem 0;}
+
+.rule .activity-pop{border-radius:0;left: .427rem;right: .427rem;}
+.rule .activity-pop-content{text-align: left;padding:1.067rem 1.28rem 1.28rem;}
+.rule .activity-pop-content h2{margin-bottom: .853rem;font-size: .725rem;text-align: center;background:url('/static/Activity/TC0A-026/images2/activity-pop-rule.png') center top no-repeat; background-size:6.059rem .704rem;}
+.rule .activity-pop-content p{font-size: .555rem;line-height: 1.024rem;}
+.activity-form-tip{font-size: .512rem;padding-bottom: .427rem;text-align: center;}

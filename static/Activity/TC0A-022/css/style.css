@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2017-12-27
+ * @version NewYear
+ */
+
+body{background:url('../images/box-repeat.png') top center repeat-y #bc1010; background-size:100%;  color:#fff;}
+
+.box{width: 100%;background:url('../images/box-top.png') top center no-repeat; background-size:100%; padding:0 2.859rem; box-sizing: border-box; font-size:0.512rem;line-height: 0.853rem;}
+.box h2{font-size: 0.64rem; text-align: center; line-height: 1.493rem; color:#f1d200; margin-bottom: 0.853rem;}
+.box .yellow{color:#f1d200;}
+
+
+.list{text-align: center;width: 100%; height:17.067rem; background:url('../images/list-bg.png') top center no-repeat; background-size:100%; padding:0 2.859rem; box-sizing: border-box; font-size:0.512rem; }
+.list h2{font-size: 0.64rem; text-align: center; line-height: 1.493rem; color:#f1d200; padding: 2.65rem 0 0.75rem;}
+.list h3{font-size: 0.64rem; margin-bottom: 0.427rem;}
+.list h3 span{display: inline-block; position:relative; padding:0 0.939rem;}
+.list h3 span:after,
+.list h3 span:before{position:absolute; content:''; height:1px; width: 0.427rem; background-color: #d46108; top: 50%;}
+.list h3 span:before{left: 0;}
+.list h3 span:after{right: 0;}
+.list li{line-height: 0.853rem;}
+.list li span{display: inline-block; }
+.list li span:first-child{text-align: left;}
+.list a.btn,
+.list a.btn:visited,
+.list a.btn:hover,
+.list a.btn:active{display: inline-block;width:3.797rem; margin: 0.64rem 0 0.213rem; color:#fff; height:0.896rem; line-height: 0.896rem; text-align: center; font-size: 0.555rem; border:1px solid #d46108; border-radius: 0.896rem;}
+
+.list-box{background:#bc1010; padding-top: 1.067rem}
+.list-box .list{background:url('../images/box-top.png') top center no-repeat; height:auto; background-size:100%; position:relative;}
+.list-box .list h2{padding-top: 0;}
+.list-main{position:relative; z-index: 10; padding-bottom: 0.213rem;}
+.list-main ul{padding-bottom: 0.213rem;}
+.list-bg{position:absolute; left: 0; top: 4rem; z-index: 1; bottom:0; right: 0;background:url('../images/box-repeat.png') top center repeat-y;background-size:100%;}
+
+ul li{
+    font-size: .4rem;
+}

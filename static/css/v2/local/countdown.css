@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #E6EAEB;
+	font-family: Arial, '微软雅黑', '宋体', sans-serif
+}
+.alert-box {
+	display: none;
+    position: relative;
+    padding: 80px 9% 122px 10%;
+    border-radius: 10px;
+    /*background: #FFF;*/
+    /*box-shadow: 5px 9px 17px rgba(102,102,102,0.75);*/
+    color: #FFF;
+    text-align: center;
+}
+.alert-box p {
+	margin: 0;
+}
+.alert-circle {
+	left: 111px;
+}
+.alert-sec-circle {
+	stroke-dashoffset: 0;
+	stroke-dasharray: 735;
+	transition: stroke-dashoffset 1s linear;
+}
+.alert-sec-text {
+	position: relative;
+    top: -171px;
+	color: #000;
+	font-size: 68px;
+}
+.alert-sec-unit {
+	font-size: 20px;
+	color: rgba(66, 48, 33, 0.59);
+}
+.alert-body {
+	    margin: -45px 0 2px 0;
+}
+.alert-head {
+	color: #242424;
+	font-size: 14px;
+	text-align: left;
+	line-height: 25px;
+}
+.alert-concent {
+	margin: 25px 0 14px;
+	color: #7B7B7B;
+	font-size: 18px
+}
+.alert-concent p {
+	line-height: 27px
+}
+.alert-btn {
+	display: block;
+	border-radius: 10px;
+	background-color: #4AB0F7;
+	height: 55px;
+	line-height: 55px;
+	width: 286px;
+	color: #FFF;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 2px
+}
+.alert-btn:hover {
+	background-color: #6BC2FF
+}
+.alert-footer {
+	margin: 0 auto;
+	height: 42px;
+	width: 120px
+}
+.alert-footer-icon {
+	float: left
+}
+.alert-footer-text {
+	float: left;
+	border-left: 2px solid #EEE;
+	padding: 3px 0 0 5px;
+	height: 40px;
+	color: #0B85CC;
+	font-size: 12px;
+	text-align: left
+}
+.alert-footer-text p {
+	color: #7A7A7A;
+	font-size: 22px;
+	line-height: 18px
+}
+.p1{
+	text-align: center;
+	font-size: 16px;
+	color: #ff8470;
+	font-weight: lighter;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.p2{
+	font-size: 14px;
+	margin: .3rem;
+	line-height: 20px;
+	font-weight: lighter;
+	padding: 0 13px 0 13px;
+}
+a.t-orange-btn{
+	height: 35px;
+	box-sizing: border-box;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	color: #fff;
+	border: 1px solid #ff8470 !important;
+	width: 70% !important;
+	border-radius: 1.3rem;
+	margin: 0 auto;
+	background: #ff8470 !important;
+}

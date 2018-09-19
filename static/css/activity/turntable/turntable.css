@@ -1,0 +1,51 @@
+@charset "utf-8";
+body{ background: #1d0443;}
+.turntable-1{ background: -webkit-radial-gradient(50% 40%, circle,#830ac5 10%, #1d0443 80%);}
+.turntable-banner{ padding-top: 0.45rem;}
+.img {display: block;max-width: 100%;height: auto;vertical-align: top;border: none;}
+.turntable-2{ padding:0 0.75rem;}
+.turntable-title{ color: #ffdf3e; text-align: center; font-size: 0.75rem; padding-bottom: 0.5rem;}
+.turntable-3{ color: #ffffff; border: 1px solid #8957a1; padding:0.7rem 0.75rem; border-radius: 0.3rem;margin-bottom: 0.75rem;}
+.turntable-3 dl{margin-bottom: 0.4rem; }
+.turntable-3 dl dt{ font-size: 0.3rem; float: left;display: inline-block; width:0.5rem; line-height: 0.8rem; }
+.turntable-3 dl dd{ margin-left:0.5rem; font-size: 0.6rem; line-height: 0.8rem; }
+.t-mask{ position: fixed;background-color: rgba(0,0,0,.8);left: 0;right: 0;top: 0;bottom: 0; z-index: 99;}
+/*.t-bomb_box{ position: fixed; top:50%;background: url(../../images/turntable/turntable-2.png) no-repeat 0 0 ; left: 50%; margin:-5.6875rem 0 0 -5.475rem; z-index: 100; width:11.375rem; height: 10.95rem; background-size: 11.375rem 10.95rem; overflow: hidden;}
+*/
+
+.t-bomb-couns{ background: url(../../../images/activity/turntable/turntable-3.png) no-repeat 0 0 ; width: 8.5rem; height: 3.925rem; background-size: 8.5rem 3.925rem; margin: 1.3rem auto 0; line-height: 3.925rem;}
+.t-bomb-couns1{ font-size:0.9rem; color: #fde932; text-align: center; }
+.t-bomb-couns1 span{ font-size: 2rem;}
+.t-bomb-couns2{ text-align: center; color: #8c2b15; font-size: 0.6rem; width: 8.3rem; line-height: 0.8rem; margin: 0.5rem auto 0.2rem;}
+.turntable-btn{height: 1.5rem;width: 8.5rem;box-shadow: 0 3px #bd5b08; font-size: 0.9rem;text-align: center;line-height: 1.5rem;display: block;
+  border-radius: 0.25rem;
+  background-color: #ff9813;
+  color: #fff; margin: 0.2rem auto 0;}
+.t-bomb-close{ cursor: pointer; background:rgba(0,0,0,0); width: 0.95rem; height: 1.1rem; background-size: 0.95rem 1.1rem; position: absolute; right:0px; top:0px; }
+.t-bomb-1{text-align: center; color: #8c2b15; font-size: 0.6rem; line-height: 0.8rem; }
+.t-bomb-1.mb{ margin: 0.3rem auto 0rem;}
+.t-bomb-img{  margin: 1.1rem auto 0;  text-align: center;}
+/*.t-bomb-img img{background-size:3.35rem 4.375rem;width: 3.35rem; height: 4.375rem; }*/
+.t-bomb-img img{background-size:3.35rem 4.375rem; height: 4.375rem; }
+.t-bomb_box1{ position: absolute; background: url(../../../images/activity/turntable/turntable-2-1.png) no-repeat 0 0 ; top:0; left: 0; height: 12.375rem; width:11.375rem; background-size: 11.375rem; background-size: 11.375rem auto; z-index: 100; left: 50%; top:50%; margin: -6.1rem 0 0 -5.6rem;}
+.t-bomb-3{text-align: center; color: #8c2b15; font-size: 0.6rem; width: 8.9rem; line-height: 0.8rem; margin: 0.5rem auto 0.2rem;}
+.t-bomb-2{ color: #e33215; font-size: 0.6rem; text-align: center;width: 9rem; text-align: center; margin: 0.2rem auto 0.2rem; line-height: 0.8rem;}
+.t-bomb-couns4{ color: #8c2b15; font-size: 0.6rem; text-align: center; line-height: 0.8rem; margin: 0.25rem auto 0.3rem;}
+.t-code{ width: 4.175rem; height: 4.225rem; margin: 0 auto 2rem; }
+.t-code dt img{ width: 4.175rem; height: 4.225rem; background-size: 4.175rem auto; }
+.t-code dd{ text-align: center; color: #ffffff; font-size: 0.45rem; margin-top: 0.2rem;}
+.t-code dd span{ color: #ffc029;}
+.turntable-title1{ padding-left: 0.9rem; text-align: left;}
+.turntable-cash{ position: absolute; width:11.1rem; height:2.05rem; background-position: 11.1rem 2.05rem; left: 50%; margin-left: -5.4rem;top:11.6rem; }
+/*大转盘*/
+.t-bomb3{ color:#e33215; font-size: 0.9rem; text-align: center; margin-top: 4.8rem; }
+.banner{display:block;width:75%;margin-left:auto;margin-right:auto;margin-bottom: 20px;}
+.banner .turnplate{display:block;width:100%;position:relative;background-image:url(../../../images/activity/turntable/turnplate-bg.png);background-size:100% 100%;}
+.banner .turnplate canvas.item{width:100%;}
+.banner .turnplate img.pointer{position:absolute;width:29.5%;height:42.5%;left:35.1%;top:23%;}
+
+.t-bomb_box2{ position: absolute; background: url(../../../images/activity/turntable/turntable-2-1.png) no-repeat 0 0 ; top:0; left: 0; height: 12.375rem; width:11.375rem; background-size: 11.375rem; background-size: 11.375rem auto; z-index: 100; left: 50%; top:50%; margin: -6.1rem 0 0 -5.6rem;}
+.t-margin-top{margin-top:0.8rem;line-height:20px}
+.turntable-cash-fu{ position: absolute; width:95%;height:initial; background-position: 11.1rem 2.05rem; left: 50%; margin-left: -5.4rem;top:12.9rem; }
+
+.t-bomb_box{ position: absolute; background: url(../../../images/activity/turntable/turntable-2-1.png) no-repeat 0 0 ; top:0; left: 0; height: 12.375rem; width:11.375rem; background-size: 11.375rem; background-size: 11.375rem auto; z-index: 100; left: 50%; top:50%; margin: -6.1rem 0 0 -5.6rem;}

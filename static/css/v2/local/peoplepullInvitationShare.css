@@ -1,0 +1,54 @@
+
+.t-login-nav-1{
+    color: white !important;
+    background: #181818 !important;;
+}
+.return_i {
+    background: url(/static/images/v2/icon-Return.png) no-repeat;
+    width: .5rem;
+    height: .5rem;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: .33rem;
+    left: .15rem;
+    position: absolute;
+}
+.share_p{
+    text-align: center;
+    color: #ff7865;
+    line-height: 1.1rem;
+    margin: 1rem auto;
+    font-size: .4rem;
+}
+.top_height{
+    height: 1.25rem;
+}
+.share_button {
+    text-align: center;
+}
+.share_button a{
+    color: white;
+}
+.share_button button{
+    width: 35%;
+    height: 1.2rem;
+    background: #ff7865;
+    font-size: .4rem;
+    color: white;
+    border-radius: .3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    border:none;
+}
+.share_img{
+    width: 40%;
+    margin: 2rem auto .5rem auto;
+    display: block;
+}
+.share_foot_p{
+    color: black;
+    text-align: center;
+    font-size: .4rem;
+    margin-top: .6rem;
+}

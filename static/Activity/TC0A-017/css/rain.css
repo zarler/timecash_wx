@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2017-11-16
+ * @version redrain
+ */
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.page_rain{
+	background: url(../images/redrain-bg2.jpg) no-repeat 0 0;
+	background-size: cover;
+	height: 100%;
+}
+
+.div{
+	width: 100%;
+	min-height:100%;
+	position: relative;
+	overflow: hidden;
+}
+.bg_1{
+	background: url(../images/redrain-bg2.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+.bg_2{
+	background: url(../images/redrain-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+.div > div{
+	width:2.773rem;
+	height: 2.347rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../images/icon_package.png) 0 -1px no-repeat;
+	background-size: 6.613rem 9.152rem;
+	
+}
+
+.page-time{
+	position:absolute;
+	left: 0; right: 0; top: 4.373rem; font-size: 1.408rem; text-align: center; color:#f4db0a; z-index: 100;
+}
+
+.redrain-pop{width: 11.605rem;position:fixed; z-index: 30; top:50%; left: 50%; transform:translate(-50%,-50%);}
+.redrain-pop-end{width: 11.605rem;height:6.144rem;background: url('../images/pop-end.png') bottom center no-repeat; background-size: 100%;}
+.redrain-pop-btn{margin-top: 2.56rem;}
+.redrain-pop-btn a{display: block; width: 5.419rem; height:1.451rem; line-height: 1.451rem; text-align: center; color:#9b0e1c; font-size: 0.683rem; background-color: #ffe656; border-radius: 0.213rem; border-bottom: 0.107rem solid #dd880b; margin: 0 auto 0.427rem;}
+
+.redrain-pop-bonus{ width:12.139rem; height:12.117rem;background: url('../images/pop-bonus.png') bottom center no-repeat; background-size: 100%; }
+.redrain-pop-bonus p{font-size: 0.527rem; color:#5f1509; text-align: center;}
+.redrain-pop-bonus p:first-child{font-size: 1.173rem; color:#f5253a; padding: 4.267rem 0 1.75rem;}
+.redrain-pop-bonus p:first-child big{font-size: 2.304rem;}
+.redrain-pop-btn.bonus-btn{margin-top: 0;}
+.redrain-pop-btn.bonus-none{margin-top: 1.237rem;}
+.redrain-pop-none{width: 9.536rem; height:9.6rem; margin:0 auto; background: url('../images/pop-none.png') bottom center no-repeat; background-size: 100%;}
+.redrain-pop-none p{text-align: center; font-size: 0.597rem; color:#5f1509; padding-top: 7.595rem;}
+
+.redrain-pop-done{width: 11.605rem;height:6.144rem;background: url('../images/pop-done.png') bottom center no-repeat; background-size: 100%;}
+.redrain-pop-up{width: 11.605rem;height:7.88rem;background: url('../images/pop-up.png') bottom center no-repeat; background-size: 100%;}
+.redrain-pop-chance{width: 11.605rem;height:6.144rem;background: url('../images/pop-chance.png') bottom center no-repeat; background-size: 100%;}
+.redrain-pop-chance-end{width: 11.605rem;height:6.144rem;background: url('../images/pop-chance-end.png') bottom center no-repeat; background-size: 100%;}
+.redrain-pop-zan{width: 11.605rem;position:fixed; z-index: 30; top:35%; left: 50%; transform:translate(-50%,-50%);}
+.redrain-pop-zan a{background: url('../images/hand.png') bottom center no-repeat;background-size: 100%;display: block;width: 3rem;height: 4.5rem;margin:0 auto}
